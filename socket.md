@@ -43,4 +43,4 @@ UDP上面 的可靠传输不一定比tcp快。
 UDP 时候考虑一个包的大小，TCP 是伪流 可以拆分包
 IP包最大 64k UPD 最大为 64000字节
 # 四、windows 查看协议安装
-通过：WSAEnumProtocols 会显示出windows 机器所安装的协议：WSA是前缀windows 就相当于 win 网络
+通过：WSAEnumProtocols 会显示出windows 机器所安装的协议：WSA是前缀windows 就相当于 win 网络用来区分其他系统函数
